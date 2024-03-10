@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,900&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background:url(../assets/img/fondotornasol.jpg);
+    background-size: cover;
+    color:white;
+    .logo {
+        width: 100px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .listanav{
+        list-style: none;
+     
+        text-align:right;
+        .listaitem{
+            display:inline-block;
+            margin-right: 20px;
+            .linknav{
+                color:white;
+                text-decoration: none;
+                font-size: 2rem;
+                
+            
+            }
+        }
+       
+    }    
+}
+
+.titulos {
+    color: blueviolet ;
+    font-size: 3rem;
+    text-align: left;
+ }
+ .subtitulos{
+    color: blueviolet;
+    font-size: 2rem;
+    text-align: left;
+ }
+ .parrafocentrado{text-align: left;}
+ .columnacentrada{align-items: center;padding: 20px;}
+ .logoprincipal {
+    width: 700px;
+}
+.retrato{width: 600px;}
+.tituloizquierdo{text-align: right;
+    color: cornflowerblue ;
+    font-size: 1.5rem;
+    margin-bottom: 20px;}
+.marcas{width: 300px;}
+.contenedor{column-count: 2;}
+.columna{padding: 20px;}
+.contenedor2{column-count: 1;
+    text-align: right;
+    padding: 40px;}
+.contenedortitulo{padding-left: 20px;
+    padding-right: 20px;}
+.seccionTarjetas{
+    width:90%;
+    margin:0 auto;
+    text-align: center;
+    }
+    .tarjeta{
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background-color:rgb(236, 236, 236);
+        border:1px solid black;
+        padding:50px 20px;
+        padding: 10px 20px 30px 40px;
+        padding-top:50px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right:20px;
+        margin:20px;
+    }
+
+.tituloSeccionTarjetas{
+    text-align: center;
+    font-size: 1rem;
+    color: cornflowerblue;}
+.imgTarjeta{
+    width: 100%;
+    height:90%;
+    object-fit: contain}
+.contenedor3{column-count: 3;}
+.columna3{width: 33.33%;padding: 10px;}
+.formcontacto {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;}
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+ button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+.iconos {width: 150px;}
+.pdficon{position: absolute;top: 900px; right: 20px;}
+    .pdficono{width: 70px; text-align: righ}
+
+.footer{
+    background-color: black; margin-top: 20px;}
+    .contenedorfooter{padding: 20px; column-count: 5;}
+        .columnfooter{margin-top: 15px; margin-bottom: 15px;}
+        .logofooter {width: 100px;margin-left: 20px;}
+    .listanavfooter{list-style: none;text-align: left;}
+    .listaitemfooter{margin-top: .5px;}
+    .linknavfooter{
+        color:white;
+        text-decoration: none;
+        font-size: 1rem;}
+
+.footertexto{font-size: 2rem;color: azure;}
+
+
+
