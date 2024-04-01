@@ -111,7 +111,7 @@ button {
      .logoprincipal {
         width: 700px;
     }
-.marcas{padding: 10px 10px 10px 10px;}
+.marcas{padding: 10px 10px 10px 10px;align-items: center;}
 .column2{column-count: 2;padding: 0 0 0 0;display: flex;}
 .contenedor{column-count: 1;
 width: 50%;}
