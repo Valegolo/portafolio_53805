@@ -148,8 +148,8 @@ width: 250px;}
         text-transform: uppercase;
         color: aliceblue;
       }
-      .box h6{ text-transform: uppercase;
-        color: aliceblue;
+      .textofooter{ text-transform: uppercase;
+        color: rgb(184, 231, 234);
     }
       .box .content{
         margin: 20px 0 0 0;
