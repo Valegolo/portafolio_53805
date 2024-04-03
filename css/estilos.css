@@ -234,13 +234,6 @@ body {
   height: 200px;
 }
 
-.contenedoranimado {
-  width: 200px;
-  height: 200px;
-  border: 1px solid black;
-  overflow: hidden;
-}
-
 .imgmarcas {
   box-shadow: 5px 5px 10px rgba(161, 26, 195, 0.5);
   padding: 10px 10px 10px 10px;
@@ -248,9 +241,21 @@ body {
   height: 250px;
 }
 
+.contendoranimado {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+
 .retrato {
-  width: 600px;
-  padding: 0 0 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease-in;
+}
+.retrato:hover {
+  transform: scale(2s);
 }
 
 .logofooter {
@@ -264,11 +269,6 @@ body {
     justify-items: center;
   }
 }
-.intnto {
-  box-shadow: 5px 5px 10px rgba(161, 26, 195, 0.5);
-  padding: 10px 10px 10px 10px;
-}
-
 footer {
   bottom: 0px;
   width: 100%;
