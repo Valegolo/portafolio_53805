@@ -234,11 +234,18 @@ body {
   height: 200px;
 }
 
-.imgmarcas {
-  padding: 10px 10px 10px 10px;
+.contenedoranimado {
   width: 200px;
   height: 200px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.imgmarcas {
   box-shadow: 5px 5px 10px rgba(161, 26, 195, 0.5);
+  padding: 10px 10px 10px 10px;
+  width: 250px;
+  height: 250px;
 }
 
 .retrato {
@@ -257,6 +264,11 @@ body {
     justify-items: center;
   }
 }
+.intnto {
+  box-shadow: 5px 5px 10px rgba(161, 26, 195, 0.5);
+  padding: 10px 10px 10px 10px;
+}
+
 footer {
   bottom: 0px;
   width: 100%;
