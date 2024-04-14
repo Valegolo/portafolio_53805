@@ -215,7 +215,13 @@ body {
   padding-left: 250px;
 }
 
-.iframe-video {
+.centrado-trabajos {
+  align-content: center;
+  padding: 0 0 0 20px;
+  padding-left: 250px;
+}
+
+.iframe {
   width: 600px;
   height: 300px;
 }
@@ -225,7 +231,11 @@ body {
     align-items: center;
     padding: 0 0 0 0;
   }
-  .iframe-video {
+  .centrado-trabajos {
+    text-align: center;
+    padding: 0 0 0 30px;
+  }
+  .iframe {
     width: 300px;
     height: 300px;
   }
@@ -258,8 +268,8 @@ body {
 .imgmarcas {
   box-shadow: 5px 5px 10px rgba(161, 26, 195, 0.5);
   padding: 10px 10px 10px 10px;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 .contendoranimado {
@@ -288,6 +298,13 @@ body {
   .iconos {
     width: 20px;
     justify-items: center;
+  }
+  .imgmarcas {
+    box-shadow: 5px 5px 10px rgba(161, 26, 195, 0.5);
+    padding: 10px 10px 10px 10px;
+    width: 250px;
+    height: 250px;
+    align-items: center;
   }
 }
 footer {
