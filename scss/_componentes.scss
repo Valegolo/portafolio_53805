@@ -1,10 +1,11 @@
 .formcontacto {
-    width: 600px;
+    width: 800px;
     margin: 50px auto;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px;color:$shadow;
     padding: 20px;
+    align-items: center;
     
     label {
         display: block;
@@ -60,8 +61,6 @@
         background: #ac08c2;
         top: -10px;
       }
-      .parrafocentrado{text-align: left;
-        padding: 10px 10px 10px 10px;}
 
         .contenedor2{column-count: 1;
           text-align: right;
@@ -79,7 +78,8 @@
            .columna{padding: 20px;}
       .column2{column-count: 2;padding: 0 0 0 0;display: flex;}
       .contenedor{column-count: 1;
-      width: 50%;}
+      width: 50%;
+    padding-left: 25%;}
       
           .columnacentrada{align-items: center;
             vertical-align: center;
@@ -111,20 +111,52 @@
               padding-left: 250px;
             
             }
+            .centrado-contactos{ align-content: center; padding: 0 0 0 20px;
+              padding-left:100px;
+            }
             .iframe{
               width: 600px;
               height: 300px;
             }
             @media screen and (max-width: 700px) {
             .centrado{align-items: center;
-            padding:0 0 0 0;}
+            padding:0 0 0 0;text-align: center;}
             .centrado-trabajos {
               text-align: center;padding: 0 0 0 30px;
-}
+            }
+              .centrado-contactos{align-items: center;
+                padding:0 0 0 0;text-align: center;}
+
             .iframe{
               width: 300px;
               height: 300px;
-            } }
+            }
+            .formcontacto {
+              width: 600px;
+              margin: 50px auto;
+              background-color: #fff;
+              border-radius: 8px;
+              box-shadow: 0 0 10px;color:$shadow;
+              padding: 20px;
+              label {
+                display: block;
+                margin-bottom: 8px;
+                color: $texto-negro;
+                font-weight: bold;
+          
+            }
+          
+            input, select {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 16px;
+                box-sizing: border-box;
+            }
+
+          }
+          .contenedor{column-count: 1;
+            width: 80%; padding: 0% 0% 0% 0%;}
+        }
           
 
           
