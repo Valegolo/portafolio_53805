@@ -30,7 +30,9 @@ header{
             color:$link-nav;
             text-decoration: none;
             font-size: 1rem;
+            transition: color 0s;
         }
+        .linknav:hover{color: rgb(165, 66, 214);}
     .abreviatura {
             width: 50px;
             padding-top: 10px;

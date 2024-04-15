@@ -12,19 +12,37 @@
 </head>
 <body>
 <header>
-      <a href="./index.html">
-      <img class="abreviatura" src="./assets/img/abreviatura.png" alt="logo de la pagina">
-      </a>
-    <nav>
-    <ul class="listanav"> 
-        <li class="listaitem"><a class="linknav" href="./index.html">Inicio</a></li>
-        <li class="listaitem"><a class="linknav" href="./pages/sobremi.html">Sobre Mí</a></li>
-        <li class="listaitem"><a class="linknav" href="./pages/trabajos.html">Trabajos</a></li>
-        <li class="listaitem"><a class="linknav" href="./pages/skills.html">Skills</a></li>
-        <li class="listaitem"><a class="linknav" href="./pages/contacto.html">Contacto</a></li>  
+    <nav class="navbar navbar-expand-lg navbar-dark bgNav">
+              <div class="container-fluid">
+                <a href="./index.html">
+                    <img class="abreviatura" src="./assets/img/abreviatura.png" alt="logo de la pagina">
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
       
-    </ul>
-    </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="linknav">Inicio</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sobremi.html"><i class="linknav">Sobre Mi</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/trabajos.html"><i class="linknav">Trabajos</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/skills.html"><i class="linknav">Skills</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html"><i class="linknav">Contacto</i></a>
+              </li>  
+          </ul>
+        </div>
+      </nav>
 </header>
 <main class="cuerpo">
     <div class="main-content">
@@ -32,19 +50,20 @@
             <img class="logoprincipal" src="./assets/img/logoazul.png" alt="logo azul Valentina">
         </div>
     <div class="columnacentrada">
-        <h1 class="titulos">Desarollo Web </h1>
-        <h4><p>Como comunicadora social especializada en la creación y desarrollo de páginas web, poseo una amplia experiencia trabajando con diversos CMS, incluyendo AEM, Sitecore, Wordpress y Magnolia. </p></h4>
-        <h4><p>Mi enfoque se centra en fusionar la comunicación efectiva con la tecnología, utilizando mis habilidades en HTML5, CSS y JavaScript para construir experiencias digitales memorables y funcionales. </p></h4>
-        <h4><p>Actualmente, me encuentro inmersa en un programa de estudios fullstack, fortaleciendo mis conocimientos para ofrecer soluciones integrales y adaptarme a las últimas tendencias tecnológicas. Mi pasión por la comunicación y el desarrollo web se refleja en cada proyecto que abordo, buscando siempre innovar y crear conexiones significativas en el entorno digital.</p></h4>
+        <h1 class="titulos">Desarrollo Web</h1>
+        <p>Como comunicadora social especializada en la creación y desarrollo de páginas web, poseo una amplia experiencia trabajando con diversos CMS, incluyendo AEM, Sitecore, Wordpress y Magnolia. </p>
+        <p>Mi enfoque se centra en fusionar la comunicación efectiva con la tecnología, utilizando mis habilidades en HTML5, CSS y JavaScript para construir experiencias digitales memorables y funcionales. </p>
+        <p>Actualmente, me encuentro inmersa en un programa de estudios fullstack, fortaleciendo mis conocimientos para ofrecer soluciones integrales y adaptarme a las últimas tendencias tecnológicas. Mi pasión por la comunicación y el desarrollo web se refleja en cada proyecto que abordo, buscando siempre innovar y crear conexiones significativas en el entorno digital.</p>
             <div>
                 <a href="./pages/contacto.html" class="boton">Contactame</a>
     </div>
     </div>
 </div>
-    <div class="columnacentrada"> 
-            <iframe width="300" height="215" src="https://www.youtube.com/embed/47dtFZ8CFo8?si=0dtpQ5fiFbP99OrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="columna"> 
+      <div class="centrado">
+            <iframe class="iframe" src="https://www.youtube.com/embed/47dtFZ8CFo8?si=0dtpQ5fiFbP99OrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-
+  </div>
 </main>
 <footer> 
     <footer>
@@ -82,8 +101,13 @@
                         <input type="submit" value="Contactar"> 
                     </form>
                 </section>
+            <div>
+                <h3>Ubicacion</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.39472301613!2d-74.27262210527684!3d4.648620637636398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1712005722084!5m2!1ses!2sco" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             </div>
           </div>
       </footer>
+      <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
   </html>

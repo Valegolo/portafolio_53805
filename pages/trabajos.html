@@ -12,50 +12,74 @@
 </head>
 <body>
 <header>
-    <a href="./index.html">
-    <img class="abreviatura" src="../assets/img/abreviatura.png" alt="logo de la pagina">
-     </a>
-    <nav>
-    <ul class="listanav"> 
-        <li class="listaitem"><a class="linknav" href="../index.html">Inicio</a></li>
-        <li class="listaitem"><a class="linknav" href="./sobremi.html">Sobre Mi</a></li>
-        <li class="listaitem"><a class="linknav" href="./trabajos.html">Trabajos</a></li> 
-        <li class="listaitem"><a class="linknav" href="./skills.html">Skills</a></li>  
-        <li class="listaitem"><a class="linknav" href="./contacto.html">Contacto</a></li>
-    </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bgNav">
+        <div class="container-fluid">
+          <a href="./index.html">
+              <img class="abreviatura" src="../assets/img/abreviatura.png" alt="logo de la pagina">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html"><i class="linknav">Inicio</i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./sobremi.html"><i class="linknav">Sobre Mi</i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./trabajos.html"><i class="linknav">Trabajos</i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./skills.html"><i class="linknav">Skills</i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./contacto.html"><i class="linknav">Contacto</i></a>
+                        </li>  
+                    </ul>
+                </div>
+            </nav>  
 </header>
 <main>
     <div class="contenedortitulo">
         <section class="columna">
         <h1 class="titulos"> Trabajos </h1> 
-    </section>
+        </section>
     </div>
 <div class="columna">
-    <div class="columnacentrada">
         <div class="contenedorsombras">
         <img class="marcas" src="../assets/img/mrm.png" alt="Logo de la empresa MRM">
-    </div>
-        <h3><p class="parrafocentrado">Especializada en la creación, gestión y mantenimiento de páginas web a través de Adobe Experience Manager (AEM). He tenido el honor de colaborar con clientes de renombre, como General Motors U.S.A, en particular para las marcas de Cadillac y Buick. Mi trabajo se ha centrado en la entrega de soluciones web excepcionales, diseñadas para resaltar la identidad y los valores de estas marcas icónicas.
-        </p></h3>
 </div>
-
-    <div class="columnacentrada">
+        <p class="parrafocentrado">Especializada en la creación, gestión y mantenimiento de páginas web a través de Adobe Experience Manager (AEM). He tenido el honor de colaborar con clientes de renombre, como General Motors U.S.A, en particular para las marcas de Cadillac y Buick. Mi trabajo se ha centrado en la entrega de soluciones web excepcionales, diseñadas para resaltar la identidad y los valores de estas marcas icónicas.
+        </p>
+</div>
+<div class="columna">
     <h2 class="subtitulos"> Paginas</h2>
-      <div class="column2">
-<img class="imgmarcas" src="../assets/img/buicklogo.jpeg" alt="Logo de la marca Buick">  
+</div> 
+<div class="main-content">
+<div class="centrado-trabajos">   
+<img class="imgmarcas" src="../assets/img/buicklogo.jpeg" alt="Logo de la marca Buick"> 
+</div>  
+<div class="centrado-trabajos">
 <img class="imgmarcas" src="../assets/img/cadi.jpeg" alt="Logo de la marca Cadillac">
-</div>
-   </div>
+</div>  
 </div>
 
 <div class="columna">
-        <div class="columnacentrada">
-            <img class="marcas" src="../assets/img/colsubsidio.jpg" alt="Logo de la marca COLSUBSIDIO">
-            <h3><p class="parrafocentrado">
-                Supervisé y gestioné la Intranet corporativa de Medicamentos, abarcando la carga de material, las actualizaciones y proporcionando asistencia técnica a los usuarios.</p></h3>
-        </div>
+    <div class="contenedorsombras">
+    <img class="marcas" src="../assets/img/colsubsidio.jpg" alt="Logo de la marca COLSUBSIDIO">
+    </div>        
+    <p class="parrafocentrado">Supervisé y gestioné la Intranet corporativa de Medicamentos, abarcando la carga de material, las actualizaciones y proporcionando asistencia técnica a los usuarios.       
+    </p>
+</div>
+<div class="columna">
+    <h2 class="subtitulos"> Paginas</h2>
+</div>  
         <div class="columna">
+            <div class="centrado-trabajos">
         <img class="imgmarcas" src="../assets/img/droguerias.jpg" alt="Lodo de Droguerias Colsubsidio">
     </div>
     </div>
@@ -98,5 +122,6 @@
             </div>
           </div>
       </footer>
+      <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
   </html>   

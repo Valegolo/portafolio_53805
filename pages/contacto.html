@@ -12,18 +12,36 @@
 </head>
 <body>
     <header>
-        <a href="../index.html">
-        <img class="abreviatura" src="../assets/img/abreviatura.png" alt="logo de la pagina">
-         </a>
-        <nav>
-        <ul class="listanav"> 
-            <li class="listaitem"><a class="linknav" href="../index.html">Inicio</a></li>
-            <li class="listaitem"><a class="linknav" href="./sobremi.html">Sobre Mi</a></li>
-            <li class="listaitem"><a class="linknav" href="./trabajos.html">Trabajos</a></li>
-            <li class="listaitem"><a class="linknav" href="./skills.html">Skills</a></li>  
-            <li class="listaitem"><a class="linknav" href="./contacto.html">Contacto</a></li>
-        </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bgNav">
+            <div class="container-fluid">
+              <a href="./index.html">
+                  <img class="abreviatura" src="../assets/img/abreviatura.png" alt="logo de la pagina">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="../index.html"><i class="linknav">Inicio</i></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./sobremi.html"><i class="linknav">Sobre Mi</i></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./trabajos.html"><i class="linknav">Trabajos</i></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./skills.html"><i class="linknav">Skills</i></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./contacto.html"><i class="linknav">Contacto</i></a>
+                            </li>  
+                        </ul>
+                    </div>
+                </nav>  
     </header>
 <main>
     <main>
@@ -53,31 +71,33 @@
         </form>
     </div>
     </div>
-<div>
-    <div class="contenedor">
+</div>
+    <div class="columna">
+            <div class="centrado-contactos">
             <a href="mailto:valentinagomezlopera8@gmail.com">
             <img class="iconos" src="../assets/img/gmail.png" alt="Icono de Gmail">
-        </a>
-    </div>
-    <div>
+            </a>
+           </div>
+           <div class="centrado-contactos">
         <a href="https://www.linkedin.com/in/valentinagomezlopera/">
             <img class="iconos" src="../assets/img/linkedin.png" alt="Icono de Linkedin">
         </a>
-    </div>
-    <div>
+           </div>
+        <div class="centrado-contactos">
         <a href="https://wa.me/+573005703568">
             <img class="iconos" src="../assets/img/whatsapp.png" alt="Icono Whatsapp">
         </a>
-    </div>
-</div>
+        </div>
     </div>
 <div class="columna">
         <div class="pdficon">
         <a href="../assets/docs/cvVLG.pdf" download="cvVGL">
             <img class="pdficono" src="../assets/img/pdf.png" alt="Icono pdf">
         </a>
+        <p class="descargar"> Descargalo aqui</p>
     </div>
     </div>
+    
 </main>
 <footer>
     <div class="main-content">
@@ -117,6 +137,7 @@
         </div>
       </div>
   </footer>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>   
 
