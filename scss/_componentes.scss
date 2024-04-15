@@ -104,8 +104,8 @@
               box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
             }
             
-            .centrado{ align-content: center; padding: 0 0 0 20px;
-              padding-left: 250px;
+            .centrado{ align-content: center;
+              padding-left: 25%;
             }
             .centrado-trabajos{ align-content: center; padding: 0 0 0 20px;
               padding-left: 250px;
@@ -118,6 +118,7 @@
               width: 600px;
               height: 300px;
             }
+            
             @media screen and (max-width: 700px) {
             .centrado{align-items: center;
             padding:0 0 0 0;text-align: center;}
