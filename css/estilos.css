@@ -95,6 +95,10 @@ body {
   font-weight: bold;
 }
 
+.texto-basico {
+  color: rgba rgba(0, 0, 0, 0);
+}
+
 .formcontacto {
   width: 800px;
   margin: 50px auto;
@@ -108,7 +112,7 @@ body {
 .formcontacto label {
   display: block;
   margin-bottom: 8px;
-  color: rgba rgba(0, 0, 0, 0);
+  color: black;
   font-weight: bold;
 }
 .formcontacto input, .formcontacto select {
