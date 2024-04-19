@@ -104,6 +104,19 @@ body {
   padding-top: 10px;
 }
 
+.parrafo-404 {
+  text-align: center;
+  align-items: center;
+  padding: 50px 10px 10px 10px;
+}
+
+.titulo-404 {
+  color: blueviolet;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .formcontacto {
   width: 800px;
   margin: 50px auto;
