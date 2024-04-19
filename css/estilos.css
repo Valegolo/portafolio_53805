@@ -98,6 +98,12 @@ body {
   color: rgba rgba(0, 0, 0, 0);
 }
 
+.texto-blanco {
+  color: azure;
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+
 .formcontacto {
   width: 800px;
   margin: 50px auto;
